@@ -1,6 +1,6 @@
 [
   { "tipo": "euskera", "texto": "Egun on", "detalle": "Buenos días. El saludo más sencillo y el que más abre puertas." },
-  { "tipo": "cita", "texto": "Caminante, no hay camino, se hace camino al andar.", "detalle": "Antonio Machado" },
+  { "tipo": "cita", "texto": "La imaginación es más importante que el conocimiento", "detalle": "Albert Einstein" },
   { "tipo": "euskera", "texto": "Auzolan", "detalle": "Trabajo vecinal, hecho entre todos y para todos." },
   { "tipo": "refran", "texto": "Por San Martín, mata tu cerdo y destapa tu vino.", "detalle": "Refrán popular de noviembre" },
   { "tipo": "euskera", "texto": "Mahastia", "detalle": "El viñedo. Mahatsa es la uva y ardoa, el vino." },
