@@ -1,0 +1,33 @@
+{
+  "frentes": [
+    {
+      "titulo": "Día del Rosado",
+      "texto": "Cada primer domingo de junio: cata de vinos en la Plaza Mayor, chistorrada popular y mercadillo por el casco antiguo.",
+      "img": "rosado-olite",
+      "enlace": "1914-el-pueblo-cooperativa"
+    },
+    {
+      "titulo": "Fiestas de agosto y de San Martín",
+      "texto": "Las patronales arrancan el primer martes de agosto. Las pequeñas, el fin de semana más cercano al 11 de noviembre.",
+      "img": "unx-noche-1",
+      "enlace": "media-capa"
+    },
+    {
+      "titulo": "Romería de Santa Zita",
+      "texto": "El último sábado de abril, el pueblo camina hasta la ermita de Santa Zita, casi en la muga con Tafalla.",
+      "img": "carretera-campos",
+      "enlace": "bajar-a-la-cripta"
+    }
+  ],
+  "hitos": [
+    { "anio": "1062", "categoria": "Historia", "titulo": "Primera mención escrita", "texto": "Los documentos medievales recogen el lugar como «Vnsi». En 1102 aparece como «Unse». Más tarde se le añadiría el nombre del titular de su iglesia, San Martín." },
+    { "anio": "S. XII", "categoria": "Historia", "titulo": "La cripta románica", "texto": "Bajo la iglesia de San Martín de Tours se levanta una cripta románica, una de las joyas del patrimonio de la Zona Media.", "img": "cripta-naves", "enlace": "bajar-a-la-cripta" },
+    { "anio": "S. XIX–XX", "categoria": "Historia", "titulo": "Un pueblo cooperativo", "texto": "Caja de ahorros, harinera, trujal, central eléctrica y círculo católico: todo se levanta en régimen cooperativo." },
+    { "anio": "1914", "categoria": "Vino", "titulo": "Nace la bodega cooperativa", "texto": "Los viticultores fundan una de las bodegas cooperativas más antiguas de España.", "img": "vinedos-navarra", "enlace": "1914-el-pueblo-cooperativa" },
+    { "anio": "Abril", "categoria": "Tradición", "titulo": "Romería de Santa Zita", "texto": "El último sábado de abril, camino y comida de hermandad junto a la ermita.", "img": "carretera-campos" },
+    { "anio": "Junio", "categoria": "Vino", "titulo": "Día del Rosado", "texto": "El primer domingo de junio, el vino más premiado del pueblo toma la Plaza Mayor.", "img": "rosado-olite" },
+    { "anio": "Agosto", "categoria": "Fiestas", "titulo": "Fiestas patronales", "texto": "Empiezan el primer martes de agosto. Es la semana en que el pueblo se llena." },
+    { "anio": "Sept.–Oct.", "categoria": "Vino", "titulo": "Vendimia", "texto": "Las viñas de garnacha se llenan de cuadrillas y remolques camino de la bodega.", "img": "garnacha-racimo" },
+    { "anio": "Noviembre", "categoria": "Fiestas", "titulo": "Fiestas pequeñas de San Martín", "texto": "El fin de semana más cercano al 11 de noviembre, el pueblo honra a su santo.", "img": "iglesia-arco", "enlace": "media-capa" }
+  ]
+}

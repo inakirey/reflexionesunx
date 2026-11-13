@@ -1,0 +1,34 @@
+[
+  {
+    "fecha": "2026-11-02",
+    "lugar": "Calle Mayor",
+    "titulo": "Niebla de noviembre",
+    "texto": "[ENTRADA DE EJEMPLO – sustituir por un texto de Iñaki] Amanece con niebla y el pueblo parece flotar. Desde la cuesta solo se ve la torre de la iglesia. Los primeros vecinos ya van hacia la panadería.",
+    "img": "unx-noche-2",
+    "ejemplo": true
+  },
+  {
+    "fecha": "2026-10-28",
+    "lugar": "Viñas del camino de Ujué",
+    "titulo": "Lo que queda tras la vendimia",
+    "texto": "[ENTRADA DE EJEMPLO – sustituir por un texto de Iñaki] Las viñas se han puesto rojas. Ya no queda uva, pero los campos siguen hablando: del calor del verano, de las manos que pasaron por aquí.",
+    "img": "vinedos-navarra",
+    "ejemplo": true
+  },
+  {
+    "fecha": "2026-10-21",
+    "lugar": "Plaza",
+    "titulo": "La plaza a las siete",
+    "texto": "[ENTRADA DE EJEMPLO – sustituir por un texto de Iñaki] Tres generaciones en el mismo banco: una abuela, su hija y un crío con un balón. Nadie tiene prisa. Esto también es riqueza.",
+    "img": "iglesia-plaza",
+    "ejemplo": true
+  },
+  {
+    "fecha": "2026-10-14",
+    "lugar": "Mirador hacia Ujué",
+    "titulo": "Mirar lejos",
+    "texto": "[ENTRADA DE EJEMPLO – sustituir por un texto de Iñaki] Al fondo, Ujué colgado de su peña. Entre medio, campos de todos los colores. Llevo año y medio aquí y todavía me paro a mirarlo.",
+    "img": "ujue-paisaje",
+    "ejemplo": true
+  }
+]

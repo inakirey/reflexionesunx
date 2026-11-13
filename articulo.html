@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reflexiones en San Martín de Unx</title>
+  <meta name="description" content="Reflexiones, testimonios y memoria de San Martín de Unx, en la Zona Media de Navarra, por Iñaki Rey.">
+  <meta name="theme-color" content="#2f4b2c">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Reflexiones en San Martín de Unx">
+  <meta property="og:title" content="Reflexiones en San Martín de Unx">
+  <meta property="og:description" content="Gentes, tradiciones y memoria de un pueblo de la Zona Media de Navarra.">
+  <meta property="og:image" content="https://commons.wikimedia.org/wiki/Special:FilePath/Unx_-_ikuspegia.png?width=1280">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍇</text></svg>">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <div class="progreso" aria-hidden="true"><span></span></div>
+
+  <header class="cabecera" id="cabecera">
+    <a class="marca" href="index.html" aria-label="Reflexiones en San Martín de Unx, inicio">
+      <span class="marca__hoja" aria-hidden="true">❦</span>
+      <span>Reflexiones <em>en</em> Unx</span>
+    </a>
+    <nav class="menu" id="menu" aria-label="Principal">
+      <a href="index.html#historias">Historias</a>
+      <a href="index.html#testimonios">Testimonios</a>
+      <a href="index.html#actividades">Actividades</a>
+      <a href="index.html#mapa">Mapa</a>
+      <a href="index.html#diario" data-requiere="diario" hidden>Diario</a>
+      <a href="index.html#galeria">Galería</a>
+      <a href="index.html#inaki">Iñaki</a>
+      <a href="index.html#implicate" class="menu__cta" data-requiere="implicate" hidden>Implícate</a>
+    </nav>
+    <div class="cabecera__acciones">
+      <button class="icono-btn" id="btn-tema" type="button" aria-label="Cambiar entre modo claro y oscuro">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9Z"/></svg>
+      </button>
+      <button class="icono-btn menu-btn" id="btn-menu" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- El artículo se genera a partir de data/articulos.json según el parámetro ?a=slug -->
+    <div id="articulo"></div>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie__rejilla">
+      <div>
+        <p class="marca marca--pie"><span class="marca__hoja" aria-hidden="true">❦</span> Reflexiones <em>en</em> San Martín de Unx</p>
+        <p>Gentes, tradiciones y memoria de un pueblo de la Zona Media de Navarra. Por Iñaki Rey.</p>
+        <p class="pie__euskera">Eskerrik asko · Gracias por pasear conmigo.</p>
+      </div>
+      <div>
+        <p data-requiere="boletin" hidden><a href="index.html#implicate">Recibe una historia al día →</a></p>
+        <p><a href="index.html">Volver a la portada</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+  <script type="module" src="js/articulo.js"></script>
+</body>
+</html>

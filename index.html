@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reflexiones en San Martín de Unx · Gentes, memoria y vida de pueblo</title>
+  <meta name="description" content="Reflexiones, testimonios, tradiciones y memoria de San Martín de Unx, en la Zona Media de Navarra, contados por Iñaki Rey.">
+  <meta name="theme-color" content="#2f4b2c">
+
+  <!-- Open Graph: así se verá al compartir en WhatsApp, Facebook o Telegram -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Reflexiones en San Martín de Unx">
+  <meta property="og:title" content="Reflexiones en San Martín de Unx · Despacio, como el buen vino">
+  <meta property="og:description" content="Gentes, tradiciones y memoria de un pueblo de la Zona Media de Navarra, contadas por Iñaki Rey.">
+  <meta property="og:image" content="https://commons.wikimedia.org/wiki/Special:FilePath/Unx_-_ikuspegia.png?width=1280">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍇</text></svg>">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <div class="progreso" aria-hidden="true"><span></span></div>
+
+  <header class="cabecera" id="cabecera">
+    <a class="marca" href="index.html" aria-label="Reflexiones en San Martín de Unx, inicio">
+      <span class="marca__hoja" aria-hidden="true">❦</span>
+      <span>Reflexiones <em>en</em> Unx</span>
+    </a>
+    <nav class="menu" id="menu" aria-label="Principal">
+      <a href="#historias">Historias</a>
+      <a href="#testimonios">Testimonios</a>
+      <a href="#actividades">Actividades</a>
+      <a href="#mapa">Mapa</a>
+      <a href="#diario" data-requiere="diario" hidden>Diario</a>
+      <a href="#galeria">Galería</a>
+      <a href="#inaki">Iñaki</a>
+      <a href="#implicate" class="menu__cta" data-requiere="implicate" hidden>Implícate</a>
+    </nav>
+    <div class="cabecera__acciones">
+      <button class="icono-btn" id="btn-tema" type="button" aria-label="Cambiar entre modo claro y oscuro">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9Z"/></svg>
+      </button>
+      <button class="icono-btn menu-btn" id="btn-menu" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-label="Portada">
+      <div class="hero__fondo" data-img="unx-vista" data-eager></div>
+      <div class="hero__velo"></div>
+      <div class="hero__texto">
+        <p class="antetitulo">Zona Media de Navarra · Donamartiri Untz</p>
+        <h1 class="hero__titulo">Despacio,<br><em>como el buen vino.</em></h1>
+        <p class="hero__lead">Reflexiones, gentes, tradiciones y memoria de <strong>San Martín de Unx</strong>, contadas por <strong>Iñaki Rey</strong>, un paisano que pasea sus calles desde hace año y medio.</p>
+        <div class="hero__botones">
+          <a class="btn btn--primario" href="#historias">Leer las historias</a>
+          <a class="btn btn--fantasma" href="#implicate" data-requiere="boletin" hidden>Recibir una historia al día</a>
+        </div>
+        <p class="racha" id="racha" hidden></p>
+      </div>
+      <a class="hero__scroll" href="#hoy" aria-label="Bajar al contenido"><span></span></a>
+      <span class="hero__credito" data-credito="unx-vista"></span>
+    </section>
+
+    <!-- ============ HOY ============ -->
+    <section class="hoy contenedor" id="hoy" aria-labelledby="hoy-titulo">
+      <h2 class="visualmente-oculto" id="hoy-titulo">Hoy en San Martín de Unx</h2>
+      <article class="tarjeta-dia revelar" id="palabra-dia" aria-live="polite"></article>
+      <article class="tarjeta-testimonio-dia revelar" id="testimonio-dia"></article>
+    </section>
+
+    <!-- ============ CIFRAS ============ -->
+    <section class="cifras contenedor" aria-label="En cifras">
+      <div class="cifra revelar"><span class="cifra__num" data-contar="352">0</span><span class="cifra__txt">vecinas y vecinos (INE 2025)</span></div>
+      <div class="cifra revelar"><span class="cifra__num" data-contar="1914">0</span><span class="cifra__txt">año de la bodega cooperativa</span></div>
+      <div class="cifra revelar"><span class="cifra__num" id="n-historias" data-contar="0">0</span><span class="cifra__txt">historias publicadas</span></div>
+      <div class="cifra revelar"><span class="cifra__num" id="n-testimonios" data-contar="0">0</span><span class="cifra__txt">voces del pueblo</span></div>
+    </section>
+
+    <!-- ============ HISTORIAS ============ -->
+    <section class="seccion" id="historias" aria-labelledby="historias-titulo">
+      <div class="contenedor">
+        <header class="seccion__cabecera revelar">
+          <p class="antetitulo">Últimas historias</p>
+          <h2 id="historias-titulo">Lo que se cuenta en el pueblo</h2>
+        </header>
+        <div class="magazine" id="lista-articulos"></div>
+      </div>
+    </section>
+
+    <!-- ============ PAUSA VISUAL ============ -->
+    <section class="pausa" aria-label="Cita">
+      <div class="pausa__fondo parallax" data-img="vinedos-navarra"></div>
+      <blockquote class="pausa__cita revelar">
+        <p>«Caminante, no hay camino, se hace camino al andar.»</p>
+        <cite>Antonio Machado</cite>
+      </blockquote>
+      <span class="hero__credito" data-credito="vinedos-navarra"></span>
+    </section>
+
+    <!-- ============ TESTIMONIOS ============ -->
+    <section class="seccion" id="testimonios" aria-labelledby="testimonios-titulo">
+      <div class="contenedor">
+        <header class="seccion__cabecera revelar">
+          <p class="antetitulo">Testimonios</p>
+          <h2 id="testimonios-titulo">Las voces del pueblo</h2>
+          <p class="seccion__intro">Quienes viven aquí son los protagonistas. Filtra por tema:</p>
+        </header>
+        <div class="filtros" role="toolbar" aria-label="Filtrar testimonios por tema" id="filtros-testimonios"></div>
+        <div class="rejilla-testimonios" id="lista-testimonios"></div>
+      </div>
+    </section>
+
+    <!-- ============ ACTIVIDADES ============ -->
+    <section class="seccion seccion--oscura" id="actividades" aria-labelledby="actividades-titulo">
+      <div class="contenedor">
+        <header class="seccion__cabecera revelar">
+          <p class="antetitulo">Actividades</p>
+          <h2 id="actividades-titulo">Un pueblo que se encuentra</h2>
+          <p class="seccion__intro">Las grandes citas del año y mil años de historia de San Martín de Unx.</p>
+        </header>
+        <div class="frentes" id="frentes"></div>
+
+        <h3 class="subtitulo-seccion revelar">La vida del pueblo, en el tiempo</h3>
+        <div class="filtros filtros--claros" role="toolbar" aria-label="Filtrar la línea del tiempo" id="filtros-linea"></div>
+        <ol class="linea" id="linea"></ol>
+      </div>
+    </section>
+
+    <!-- ============ MAPA ============ -->
+    <section class="seccion" id="mapa" aria-labelledby="mapa-titulo">
+      <div class="contenedor">
+        <header class="seccion__cabecera revelar">
+          <p class="antetitulo">Mapa</p>
+          <h2 id="mapa-titulo">Pasear San Martín de Unx</h2>
+          <p class="seccion__intro">Iglesias, ermitas, plazas y parajes. Pulsa en cada punto para descubrir sus historias.</p>
+        </header>
+        <div class="mapa revelar" id="mapa-leaflet" role="region" aria-label="Mapa interactivo de San Martín de Unx"></div>
+        <ul class="mapa-lista" id="mapa-lista" aria-label="Lugares del mapa"></ul>
+      </div>
+    </section>
+
+    <!-- ============ DIARIO ============ -->
+    <section class="seccion seccion--papel" id="diario" aria-labelledby="diario-titulo" data-requiere="diario" hidden>
+      <div class="contenedor">
+        <header class="seccion__cabecera revelar">
+          <p class="antetitulo">Cuaderno de paseo</p>
+          <h2 id="diario-titulo">El diario de Iñaki</h2>
+          <p class="seccion__intro">Notas breves desde las calles, la plaza y los caminos del pueblo.</p>
+        </header>
+        <div class="diario" id="lista-diario"></div>
+      </div>
+    </section>
+
+    <!-- ============ GALERÍA ============ -->
+    <section class="seccion" id="galeria" aria-labelledby="galeria-titulo">
+      <div class="contenedor">
+        <header class="seccion__cabecera revelar">
+          <p class="antetitulo">Galería</p>
+          <h2 id="galeria-titulo">Mirar despacio</h2>
+          <!-- FOTO PROPIA: añade a data/galeria.json fotos de los campos de San Martín en cada estación
+               (almendros en flor, cereal verde en primavera, cosecha en verano, viñas rojas en otoño, escarcha en invierno),
+               de las fiestas y de la gente (con su permiso). -->
+        </header>
+      </div>
+      <div class="galeria" id="lista-galeria"></div>
+    </section>
+
+    <!-- ============ QUIÉN ES IÑAKI ============ -->
+    <section class="seccion autor" id="inaki" aria-labelledby="inaki-titulo">
+      <div class="contenedor autor__rejilla">
+        <figure class="autor__foto revelar">
+          <!-- FOTO PROPIA: retrato de Iñaki Rey paseando por el pueblo.
+               Sube la foto a img/inaki.jpg y en data/imagenes.json añade a "inaki-provisional": "local": "img/inaki.jpg" -->
+          <div data-img="inaki-provisional"></div>
+          <figcaption data-credito="inaki-provisional"></figcaption>
+        </figure>
+        <div class="autor__texto revelar">
+          <p class="antetitulo">Quién es Iñaki Rey</p>
+          <h2 id="inaki-titulo">Iñaki Rey,<br><em>un paisano que escucha</em></h2>
+          <p class="autor__lead">Nacido en Olite (Navarra), Iñaki vive en San Martín de Unx desde hace año y medio. Cada día pasea sus calles, saluda, pregunta y escucha.</p>
+          <p>Su vocación ha sido siempre educativa: aprender de la gente y ayudar a que otros aprendan. Por eso este blog no habla <em>de</em> San Martín de Unx, sino <em>con</em> San Martín de Unx: con sus mayores, sus jóvenes, sus viñas y sus piedras.</p>
+          <!-- Completar con más datos biográficos reales (trayectoria educativa, por qué llegó al pueblo…) -->
+          <dl class="autor__datos">
+            <div><dt>Origen</dt><dd>Olite, Navarra</dd></div>
+            <div><dt>Vocación</dt><dd>Educativa</dd></div>
+            <div><dt>En el pueblo</dt><dd>Año y medio</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ IMPLÍCATE ============ -->
+    <section class="seccion implicate" id="implicate" aria-labelledby="implicate-titulo" data-requiere="implicate" hidden>
+      <div class="implicate__fondo" data-img="unx-noche-1"></div>
+      <div class="contenedor implicate__contenido">
+        <header class="seccion__cabecera revelar">
+          <p class="antetitulo">Implícate</p>
+          <h2 id="implicate-titulo">Este blog lo escribimos entre todos</h2>
+        </header>
+        <div class="implicate__rejilla">
+          <div class="caja revelar" data-requiere="boletin" hidden>
+            <h3>Recibe una historia al día</h3>
+            <p>Una reflexión, una foto y una palabra en euskera, directamente en tu correo.</p>
+            <form class="boletin" id="form-boletin" novalidate>
+              <label for="email-boletin" class="visualmente-oculto">Tu correo electrónico</label>
+              <input id="email-boletin" name="EMAIL" type="email" placeholder="tu@correo.com" autocomplete="email" required>
+              <button class="btn btn--primario" type="submit">Suscribirme</button>
+              <p class="boletin__msg" role="status"></p>
+            </form>
+          </div>
+          <div class="caja revelar" data-requiere="canales" hidden>
+            <h3>Únete al canal</h3>
+            <p>Avisos de nuevas historias y de las actividades del pueblo en tu móvil.</p>
+            <div class="canales">
+              <a class="btn btn--whatsapp" id="link-whatsapp" href="#" target="_blank" rel="noopener" data-requiere="whatsapp" hidden>WhatsApp</a>
+              <a class="btn btn--telegram" id="link-telegram" href="#" target="_blank" rel="noopener" data-requiere="telegram" hidden>Telegram</a>
+            </div>
+          </div>
+          <div class="caja revelar" data-requiere="email" hidden>
+            <h3>Cuenta tu historia</h3>
+            <p>¿Conoces a alguien con algo que contar? ¿Tienes fotos antiguas, un cuento o una leyenda de la zona? Escríbeme.</p>
+            <div class="canales">
+              <a class="btn btn--fantasma" id="link-email" href="#">Escribir</a>
+              <button class="btn btn--fantasma" type="button" id="btn-compartir-sitio">Compartir el blog</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie__rejilla">
+      <div>
+        <p class="marca marca--pie"><span class="marca__hoja" aria-hidden="true">❦</span> Reflexiones <em>en</em> San Martín de Unx</p>
+        <p>Gentes, tradiciones y memoria de un pueblo de la Zona Media de Navarra. Por Iñaki Rey.</p>
+        <p class="pie__euskera">Eskerrik asko · Gracias por pasear conmigo.</p>
+      </div>
+      <details class="pie__creditos">
+        <summary>Créditos de las fotografías</summary>
+        <ul id="lista-creditos"></ul>
+      </details>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de imágenes" hidden>
+    <button class="lightbox__cerrar" type="button" aria-label="Cerrar">×</button>
+    <button class="lightbox__nav lightbox__nav--ant" type="button" aria-label="Imagen anterior">‹</button>
+    <figure><img alt=""><figcaption></figcaption></figure>
+    <button class="lightbox__nav lightbox__nav--sig" type="button" aria-label="Imagen siguiente">›</button>
+  </div>
+
+  <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script type="module" src="js/portada.js"></script>
+</body>
+</html>

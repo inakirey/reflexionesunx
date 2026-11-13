@@ -1,0 +1,57 @@
+[
+  
+  {
+    "id": "t7",
+    "quien": "Viticultor jubilado",
+    "lugar": "Calle Mayor",
+    "temas": ["vino", "territorio"],
+    "cita": "He podado estas viñas más de cuarenta inviernos. Cada cepa tiene su carácter, como las personas.",
+    "img": "garnacha-cepa",
+    "ejemplo": false
+  },
+  {
+    "id": "t2",
+    "quien": "Vecina de toda la vida",
+    "lugar": "Plaza de Santa María",
+    "temas": ["mujeres", "cultura"],
+    "cita": "Las mujeres de este pueblo sacamos adelante las casas, los campos y las fiestas. Y todavía nos quedaba tiempo para cantar.",
+    "img": "unx-calle",
+    "ejemplo": false
+  },
+  {
+    "id": "t3",
+    "quien": "Joven que volvió al pueblo",
+    "lugar": "Barrio de la iglesia",
+    "temas": ["jóvenes", "territorio"],
+    "cita": "Me fui a estudiar a la ciudad pensando que no volvería. Ahora teletrabajo desde aquí y no cambio estos atardeceres por nada.",
+    "img": "entrada-pueblo",
+    "ejemplo": false
+  },
+  {
+    "id": "t4",
+    "quien": "Vecino que cuida la ermita",
+    "lugar": "Ermita de San Miguel",
+    "temas": ["fe", "cultura"],
+    "cita": "Abrir la ermita cada domingo es mi manera de decir que aquí seguimos.",
+    "img": "iglesia-noche",
+    "ejemplo": false
+  },
+  {
+    "id": "t5",
+    "quien": "Socia de la cooperativa",
+    "lugar": "Bodega cooperativa",
+    "temas": ["vino", "mujeres"],
+    "cita": "Mi abuela ya llevaba la uva a la cooperativa. Somos tres generaciones de rosado.",
+    "img": "rosado-olite",
+    "ejemplo": false
+  },
+  {
+    "id": "t6",
+    "quien": "Estudiante de bachillerato",
+    "lugar": "Frontón municipal",
+    "temas": ["jóvenes", "cultura"],
+    "cita": "En el frontón aprendí a perder y a volver a intentarlo. Eso no te lo enseña ninguna pantalla.",
+    "img": "calle-torre",
+    "ejemplo": false
+  }
+]

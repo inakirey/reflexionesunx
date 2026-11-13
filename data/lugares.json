@@ -1,0 +1,13 @@
+[
+  { "nombre": "Iglesia de San Martín de Tours y cripta románica", "lat": 42.52557, "lng": -1.56077, "tipo": "Patrimonio", "texto": "La iglesia que da nombre al pueblo, con su cripta románica.", "enlace": "bajar-a-la-cripta" },
+  { "nombre": "Iglesia de Nuestra Señora del Pópulo", "lat": 42.52384, "lng": -1.56132, "tipo": "Patrimonio", "texto": "La otra gran iglesia del pueblo, junto a la plaza de Santa María." },
+  { "nombre": "Ayuntamiento", "lat": 42.52353, "lng": -1.56174, "tipo": "Pueblo", "texto": "El corazón de la vida municipal." },
+  { "nombre": "Frontón municipal", "lat": 42.52320, "lng": -1.56150, "tipo": "Pueblo", "texto": "Pelota, juegos y encuentros de todas las edades." },
+  { "nombre": "Calle Mayor", "lat": 42.52500, "lng": -1.56007, "tipo": "Pueblo", "texto": "La calle que sube hacia la iglesia, entre casas de piedra.", "enlace": "media-capa" },
+  { "nombre": "Ermita de San Miguel", "lat": 42.52677, "lng": -1.55867, "tipo": "Patrimonio", "texto": "Pequeña ermita en la parte alta del pueblo." },
+  { "nombre": "Ermita de Santa Zita", "lat": 42.52925, "lng": -1.60959, "tipo": "Paraje", "texto": "Destino de la romería del último sábado de abril, casi en la muga con Tafalla." },
+  { "nombre": "Val de Santa María", "lat": 42.52677, "lng": -1.53650, "tipo": "Paraje", "texto": "Paraje de campos y viñas al este del pueblo." },
+  { "nombre": "Fuente de los Ángeles", "lat": 42.53853, "lng": -1.52894, "tipo": "Paraje", "texto": "Fuente junto a la carretera de Ujué." },
+  { "nombre": "Ujué", "lat": 42.50616, "lng": -1.49941, "tipo": "Paraje", "texto": "El pueblo vecino, encaramado en su sierra." },
+  { "nombre": "Olite", "lat": 42.48136, "lng": -1.65122, "tipo": "Paraje", "texto": "Ciudad del Palacio Real y lugar de nacimiento de Iñaki." }
+]
