@@ -224,5 +224,11 @@
     "propia": true,
     "autor": "Iñaki Rey",
     "foco": "center 0%"
+  },
+  "gayarre-1881": {
+    "archivo": "Julián Gayarre - 1881.jpg",
+    "alt": "Retrato de Julián Gayarre publicado en 1881, poco antes de su legendaria visita al pueblo",
+    "autor": "L'Ilustració Catalana (1881)",
+    "licencia": "Dominio público"
   }
 }
