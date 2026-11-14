@@ -1,5 +1,53 @@
 [
   {
+    "slug": "la-voz-de-julian-gayarre",
+    "titulo": "San Martín conserva la voz de Julián Gayarre",
+    "subtitulo": "La leyenda del tenor que bajó a la cripta de San Martín, un día de noviembre de 1882.",
+    "fecha": "2026-11-14",
+    "categoria": "Tradiciones",
+    "etiquetas": [
+      "tradiciones",
+      "leyendas",
+      "historia",
+      "patrimonio"
+    ],
+    "portada": "cripta-naves",
+    "ejemplo": false,
+    "cuerpo": [
+      {
+        "t": "p",
+        "texto": "Corría el otoño de 1882. Cuentan las leyendas que un desapacible día de noviembre llegó a la plaza del pueblo un elegante coche negro, del que descendió un personaje que enseguida llamó la atención de las pocas personas que circulaban por allí en aquel momento. Era nada más y nada menos que D. Julián Gayarre, ya muy famoso por entonces en toda Navarra y en gran parte del mundo por su extraordinaria voz de tenor, con la que cosechaba éxitos en todos los teatros que visitaba."
+      },
+      {
+        "t": "img",
+        "img": "gayarre-1881",
+        "pie": "Julián Gayarre, en un retrato de 1881 publicado en la prensa de la época."
+      },
+      {
+        "t": "p",
+        "texto": "Gayarre saludó a cuantas personas se le acercaron y preguntó entonces por la famosa cripta de San Martín, de la que le habían asegurado que poseía una sonoridad extraordinaria, además de una sorprendente estructura con tres ventanas que le proporcionaban luz natural permanente."
+      },
+      {
+        "t": "p",
+        "texto": "El tenor subió las cuestas de la localidad acompañado por una multitud cada vez mayor de vecinos y pidió bajar a la cripta únicamente con la persona encargada de mostrarla. Su deseo era sentir aquella acústica única y disfrutar de la reverberación de sus paredes."
+      },
+      {
+        "t": "p",
+        "texto": "Cuenta el guardián de la cripta que D. Julián se situó en el centro, emitió apenas dos o tres notas limpias y profundas, e inmediatamente el eco respondió con su murmullo característico."
+      },
+      {
+        "t": "img",
+        "img": "cripta-naves",
+        "pie": "La cripta de San Martín de Tours, donde dicen que aún se oye su eco.",
+        "ancho": "sangre"
+      },
+      {
+        "t": "p",
+        "texto": "Fue tal el impacto de su voz que todavía hoy, si acercas el oído a los muros de la cripta, puedes percibir, aunque sea tenuemente, el eco de aquella extraordinaria voz que en ningún otro sitio ha quedado grabada."
+      }
+    ]
+  },
+  {
     "slug": "san-martin-de-tours-en-nuestro-pueblo",
     "titulo": "San Martín de Tours en nuestro pueblo",
     "subtitulo": "",
