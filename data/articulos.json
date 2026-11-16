@@ -136,6 +136,11 @@
         "texto": "Lavanderas: Lavaban en el río o el lavadero, con jabón casero de sosa y grasa, y azulete para la ropa blanca."
       },
       {
+        "t": "img",
+        "img": "oficio-lavanderas",
+        "pie": "Lavanderas en los antiguos lavaderos del río Manzanares (Madrid), hacia 1915."
+      },
+      {
         "t": "p",
         "texto": "Panadero: El pan se amasaba en casa y se cocía en el horno del pueblo."
       },
