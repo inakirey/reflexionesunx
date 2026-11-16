@@ -230,5 +230,17 @@
     "alt": "Retrato de Julián Gayarre publicado en 1881, poco antes de su legendaria visita al pueblo",
     "autor": "L'Ilustració Catalana (1881)",
     "licencia": "Dominio público"
+  },
+  "oficio-lavanderas": {
+    "archivo": "Baldomer Gili Roig. Las lavanderas del rio Manzanares (Madrid) , c. 1915.jpg",
+    "alt": "Lavanderas lavando la ropa en los antiguos lavaderos del río Manzanares, hacia 1915",
+    "autor": "Baldomer Gili Roig (Museu d'Art Jaume Morera)",
+    "licencia": "CC BY 2.0"
+  },
+  "oficio-almadias": {
+    "archivo": "Almadiak burgin.jpg",
+    "alt": "Almadías, las balsas tradicionales de troncos, en Burgui (Navarra)",
+    "autor": "PerroVerd",
+    "licencia": "CC BY-SA 2.0"
   }
 }
