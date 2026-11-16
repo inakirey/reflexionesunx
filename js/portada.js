@@ -122,16 +122,19 @@ function crearFiltros(cont, opciones, alCambiar) {
 /* ---------- Luchas: frentes y línea del tiempo ---------- */
 async function pintarLuchas() {
   const { frentes, hitos } = await datos('actividades');
-  $('#frentes').innerHTML = frentes.map((f, i) => `
-    <a class="frente revelar" href="articulo.html?a=${encodeURIComponent(f.enlace)}">
+  $('#frentes').innerHTML = frentes.map((f, i) => {
+    const cuerpo = `
       ${media(f.img, { sizes: '(min-width: 860px) 33vw, 100vw' })}
       <div class="frente__cuerpo">
         <span class="frente__num">0${i + 1}</span>
         <h3>${esc(f.titulo)}</h3>
         <p>${esc(f.texto)}</p>
-        <span class="frente__mas">Leer la historia <span aria-hidden="true">→</span></span>
-      </div>
-    </a>`).join('');
+        ${f.enlace ? '<span class="frente__mas">Leer la historia <span aria-hidden="true">→</span></span>' : ''}
+      </div>`;
+    return f.enlace
+      ? `<a class="frente revelar" href="articulo.html?a=${encodeURIComponent(f.enlace)}">${cuerpo}</a>`
+      : `<article class="frente revelar">${cuerpo}</article>`;
+  }).join('');
 
   const linea = $('#linea');
   linea.innerHTML = hitos.map(h => `
