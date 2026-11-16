@@ -1,5 +1,275 @@
 [
   {
+    "slug": "oficios-perdidos",
+    "titulo": "Oficios perdidos",
+    "subtitulo": "Quehaceres que existían porque respondían a las necesidades de aquella sociedad no tan lejana.",
+    "fecha": "2026-11-16",
+    "categoria": "Tradiciones",
+    "etiquetas": [
+      "tradiciones",
+      "oficios",
+      "memoria",
+      "mayores"
+    ],
+    "portada": "oficio-lavanderas",
+    "ejemplo": false,
+    "cuerpo": [
+      {
+        "t": "p",
+        "texto": "Nuestro mundo ha cambiado por completo, y tampoco hace tantos años que en nuestros pueblos se hacían actividades que ahora han desaparecido completamente o casi. Me refiero a los quehaceres u oficios que existían porque respondían a las necesidades de aquella sociedad no tan lejana. Nuestros mayores y algunos de nosotros todavía recuerdan cómo estos oficios eran algo natural en nuestras vidas."
+      },
+      {
+        "t": "p",
+        "texto": "Ahora solamente en algunas ferias se recrean estas tareas para que no las olvidemos."
+      },
+      {
+        "t": "img",
+        "img": "oficio-almadias",
+        "pie": "Almadías en Burgui (Navarra), una de las tareas que hoy solo se recrean."
+      },
+      {
+        "t": "p",
+        "texto": "Muchos de estos oficios los hacían las mujeres, que rara vez salían en los papeles pero sostenían la mitad del trabajo."
+      },
+      {
+        "t": "p",
+        "texto": "Unos desaparecieron y otros han llegado. Yo os dejo la lista que he recopilado de antiguos oficios que ya no están entre nosotros o casi, y reto a alguien, joven o mayor, a que me haga una lista de los nuevos oficios que han nacido en los últimos años y que han ocupado el hueco que dejaron los otros."
+      },
+      {
+        "t": "h2",
+        "texto": "Oficios perdidos o casi perdidos"
+      },
+      {
+        "t": "p",
+        "texto": "Pastor: Con su corral y su choza: en San Martín de Unx cada pastor tenía su refugio en el corral, con el \"serenau\" para las horas de calor. Hacia los 70 aún había 42 corrales en el pueblo; hoy casi todos son ruinas."
+      },
+      {
+        "t": "p",
+        "texto": "Esquilador: Esquilaba las ovejas a mano. Quedan muy pocos en Navarra; casi perdido como oficio de pueblo."
+      },
+      {
+        "t": "p",
+        "texto": "Aceitero del trujal (molino de aceite): La recogida de la oliva era faena de invierno en tu pueblo. En la Ribera los trujales duraron hasta los 60."
+      },
+      {
+        "t": "p",
+        "texto": "Yuguero: Hacían yugos"
+      },
+      {
+        "t": "p",
+        "texto": "Bastero: Hacían aparejos."
+      },
+      {
+        "t": "p",
+        "texto": "Carrero: Hacían carros. Desaparecieron con los tractores."
+      },
+      {
+        "t": "p",
+        "texto": "Herrador: Herraba mulas, yeguas y caballos."
+      },
+      {
+        "t": "p",
+        "texto": "Arriero: Llevaba mercancías con mulas y burros. Casi perdido."
+      },
+      {
+        "t": "p",
+        "texto": "Herrero: Cada pueblo tenía su herrería"
+      },
+      {
+        "t": "p",
+        "texto": "Cerrajero: Cada pueblo tenía su cerrajería."
+      },
+      {
+        "t": "p",
+        "texto": "Zapatero remendón"
+      },
+      {
+        "t": "p",
+        "texto": "Sastre"
+      },
+      {
+        "t": "p",
+        "texto": "Hojalatero"
+      },
+      {
+        "t": "p",
+        "texto": "Alpargatera"
+      },
+      {
+        "t": "p",
+        "texto": "Paragüero: todos desaparecidos."
+      },
+      {
+        "t": "p",
+        "texto": "Cestero: Cestos de mimbre"
+      },
+      {
+        "t": "p",
+        "texto": "Esterero: Hacía esteras."
+      },
+      {
+        "t": "p",
+        "texto": "Cedacero: Hacía cribas y fuelles."
+      },
+      {
+        "t": "p",
+        "texto": "Cordelero"
+      },
+      {
+        "t": "p",
+        "texto": "Soguero"
+      },
+      {
+        "t": "p",
+        "texto": "Espartero: Cuerdas y sogas."
+      },
+      {
+        "t": "p",
+        "texto": "Cerero: Depuraba la cera para velas y cirios. Las casas pobres se alumbraban con velas de sebo."
+      },
+      {
+        "t": "p",
+        "texto": "Chocolatero: En muchos pueblos se recuerda \"la casa del chocolatero\" y aún quedan los metates donde molía el cacao."
+      },
+      {
+        "t": "p",
+        "texto": "Lavanderas: Lavaban en el río o el lavadero, con jabón casero de sosa y grasa, y azulete para la ropa blanca."
+      },
+      {
+        "t": "p",
+        "texto": "Panadero: El pan se amasaba en casa y se cocía en el horno del pueblo."
+      },
+      {
+        "t": "p",
+        "texto": "Afilador"
+      },
+      {
+        "t": "p",
+        "texto": "Deshollinador: En vías de extinción."
+      },
+      {
+        "t": "p",
+        "texto": "Trapero o ropavejero: Recogía trapos y ropa vieja."
+      },
+      {
+        "t": "p",
+        "texto": "Aguador"
+      },
+      {
+        "t": "p",
+        "texto": "Barquero"
+      },
+      {
+        "t": "p",
+        "texto": "Alamín: Repartía el agua del riego"
+      },
+      {
+        "t": "p",
+        "texto": "Molinero"
+      },
+      {
+        "t": "p",
+        "texto": "Zahorí: Buscaba agua."
+      },
+      {
+        "t": "p",
+        "texto": "Almadiero: Bajaba troncos por el río en balsas. Desaparecido hace más de 50 años; hoy se recrea en Burgui."
+      },
+      {
+        "t": "p",
+        "texto": "Carbonero: Hacía carbón vegetal en el monte. Los últimos, en el valle de Lana, salen en la película \"Tasio\"."
+      },
+      {
+        "t": "p",
+        "texto": "Calero"
+      },
+      {
+        "t": "p",
+        "texto": "Nevero"
+      },
+      {
+        "t": "p",
+        "texto": "Cantero"
+      },
+      {
+        "t": "p",
+        "texto": "Aserrador"
+      },
+      {
+        "t": "p",
+        "texto": "Pecero: Sacaba la pez de los pinos en las Bardenas. Perdido del todo; solo quedan los hornos."
+      },
+      {
+        "t": "p",
+        "texto": "Tejero: Casi cada pueblo tenía su tejería de tejas y ladrillos (la de Cárcar funcionó de 1948 a 1982)."
+      },
+      {
+        "t": "p",
+        "texto": "Yesero: Cocía y molía el yeso de la cantera."
+      },
+      {
+        "t": "p",
+        "texto": "Alfarero: En Lumbier hubo hasta los años 60, amasando la arcilla con los pies descalzos."
+      },
+      {
+        "t": "p",
+        "texto": "Segadoras y escardadoras: Segaban a mano y quitaban las malas hierbas de los sembrados."
+      },
+      {
+        "t": "p",
+        "texto": "Vendimiadoras: la vendimia también era de ellas."
+      },
+      {
+        "t": "p",
+        "texto": "Aventadoras: Separar el grano de la paja aprovechando el aire."
+      },
+      {
+        "t": "p",
+        "texto": "Comadronas: En el pueblo las abuelas ayudaban en los partos."
+      },
+      {
+        "t": "p",
+        "texto": "Guisanderas: guisaban por encargo."
+      },
+      {
+        "t": "p",
+        "texto": "Mondongueras: Hacían la morcilla y los embutidos en la matanza."
+      },
+      {
+        "t": "p",
+        "texto": "Colchoneras"
+      },
+      {
+        "t": "p",
+        "texto": "Costureras, arregladoras de ropa y bordadoras: pequeños ingresos de la casa."
+      },
+      {
+        "t": "p",
+        "texto": "Criadas o \"muchachas de servir\": chicas jóvenes en casas acomodadas, algunas venidas de pueblos de Aragón."
+      },
+      {
+        "t": "p",
+        "texto": "Niñeras de casas particulares."
+      },
+      {
+        "t": "p",
+        "texto": "Amas de cría o nodrizas: amamantaban niños ajenos, con pago mensual."
+      },
+      {
+        "t": "p",
+        "texto": "Recarderas o recadistas: vendían fruta, huevos o castañas y hacían recados por encargo. Palabra muy navarra, hay hasta un estudio sobre ellas."
+      },
+      {
+        "t": "p",
+        "texto": "Las \"golondrinas\" (Valle de Roncal): muchachas que cruzaban a Mauleón a trabajar en las alpargatas y volvían en primavera."
+      },
+      {
+        "t": "p",
+        "texto": "Hilanderas: De lino y lana, con rueca y huso."
+      }
+    ]
+  },
+  {
     "slug": "la-voz-de-julian-gayarre",
     "titulo": "San Martín conserva la voz de Julián Gayarre",
     "subtitulo": "La leyenda del tenor que bajó a la cripta de San Martín, un día de noviembre de 1882.",
