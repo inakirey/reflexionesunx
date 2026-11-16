@@ -3,8 +3,7 @@
     {
       "titulo": "Día del Rosado",
       "texto": "Cada primer domingo de junio: cata de vinos en la Plaza Mayor, chistorrada popular y mercadillo por el casco antiguo.",
-      "img": "rosado-olite",
-      "enlace": "1914-el-pueblo-cooperativa"
+      "img": "rosado-olite"
     },
     {
       "titulo": "Fiestas de agosto y de San Martín",
@@ -15,8 +14,7 @@
     {
       "titulo": "Romería de Santa Zita",
       "texto": "El último sábado de abril, el pueblo camina hasta la ermita de Santa Zita, casi en la muga con Tafalla.",
-      "img": "carretera-campos",
-      "enlace": "bajar-a-la-cripta"
+      "img": "carretera-campos"
     }
   ],
   "hitos": [
