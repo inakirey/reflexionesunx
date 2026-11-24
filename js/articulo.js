@@ -76,13 +76,14 @@ async function iniciar() {
       <div class="articulo-hero__texto">
         <p class="antetitulo">${esc(a.categoria)}</p>
         <h1>${esc(a.titulo)}</h1>
-        <p class="articulo-hero__sub">${esc(a.subtitulo)}</p>
+        ${a.subtitulo ? `<p class="articulo-hero__sub">${esc(a.subtitulo)}</p>` : ''}
         <div class="articulo-meta">
           ${chipNovedad(a.fecha)}
           <span>${fechaLarga(a.fecha)}</span>
           <span>${minutosLectura(a)} min de lectura</span>
           <span>Por Iñaki Rey</span>
         </div>
+        ${a.portada_pie ? `<p class="articulo-hero__pie">${esc(a.portada_pie)}</p>` : ''}
       </div>
     </header>
     
