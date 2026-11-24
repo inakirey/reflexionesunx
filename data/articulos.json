@@ -2,7 +2,7 @@
   {
     "slug": "sor-maria-muruzabal",
     "titulo": "Sor María Muruzábal",
-    "subtitulo": "La hermana que dio nombre a la Asociación de Jubilados y a la primera residencia del pueblo.",
+    "subtitulo": "",
     "fecha": "2026-11-24",
     "categoria": "Memoria",
     "etiquetas": [
@@ -12,6 +12,7 @@
       "residencia"
     ],
     "portada": "sor-maria-funeral-ia",
+    "portada_pie": "Recreación ilustrativa hecha con inteligencia artificial: no es una fotografía del funeral de sor María.",
     "ejemplo": false,
     "cuerpo": [
       {
