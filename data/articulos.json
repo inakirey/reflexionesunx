@@ -1,5 +1,48 @@
 [
   {
+    "slug": "sor-maria-muruzabal",
+    "titulo": "Sor María Muruzábal",
+    "subtitulo": "La hermana que dio nombre a la Asociación de Jubilados y a la primera residencia del pueblo.",
+    "fecha": "2026-11-24",
+    "categoria": "Memoria",
+    "etiquetas": [
+      "memoria",
+      "mayores",
+      "personajes",
+      "residencia"
+    ],
+    "portada": "sor-maria-funeral-ia",
+    "ejemplo": false,
+    "cuerpo": [
+      {
+        "t": "p",
+        "texto": "Buscando en la historia de San Martín de Unx, he descubierto que tanto la Asociación de Jubilados como la residencia que hoy conocemos como Santa Zita llevaron en sus comienzos el nombre de esta hermana de la Caridad. La Asociación de Jubilados todavía lo mantiene, mientras que la residencia pasó a llamarse Residencia de Mayores Santa Zita."
+      },
+      {
+        "t": "p",
+        "texto": "¿Y quién era esta religiosa? Había nacido en el pueblo, en una familia muy conocida. Su padre era el señor Ponziano. La casa familiar estaba cerca de la iglesia de arriba. Sigue en pie, aunque ya no pertenece a la familia."
+      },
+      {
+        "t": "p",
+        "texto": "Sor María decidió hacerse monja y trabajó toda su vida en el pueblo y por el pueblo. Al principio fue profesora en las escuelas antiguas, donde demostró el carácter fuerte que siempre la distinguió. Más adelante se dedicó en cuerpo y alma al bienestar de los mayores. Fue una figura importante en la creación de la residencia, a la que ella misma donó una buena cantidad de dinero, y también en la creación de la Asociación de Jubilados."
+      },
+      {
+        "t": "img",
+        "img": "sor-maria-retrato-ia",
+        "pie": "Imagen ilustrativa generada con IA. No es una fotografía de sor María."
+      },
+      {
+        "t": "p",
+        "texto": "Vivió 102 años. Los mayores del pueblo todavía recuerdan la gran asistencia de vecinos a su funeral. Y recuerdan también la tormenta que se desató aquel día, con truenos y relámpagos de los que dejan huella en la memoria."
+      },
+      {
+        "t": "img",
+        "img": "sor-maria-funeral-ia",
+        "pie": "Recreación ilustrativa, hecha con inteligencia artificial, del funeral de sor María y la tormenta que los vecinos recuerdan."
+      }
+    ]
+  },
+  {
     "slug": "oficios-perdidos",
     "titulo": "Oficios perdidos",
     "subtitulo": "Quehaceres que existían porque respondían a las necesidades de aquella sociedad no tan lejana.",
